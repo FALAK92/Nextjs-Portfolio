@@ -12,6 +12,7 @@ export  default function Projects(){
             <SectionHeading>
                 My Projects
             </SectionHeading>
+
             <div>
                 {
                     projectsData.map((project, index)=>(
