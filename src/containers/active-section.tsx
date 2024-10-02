@@ -1,5 +1,7 @@
+"use client"
 import {SectionName} from "@/lib/types";
 import React, {useState, createContext, useContext} from "react";
+import ThemeContextProvider from "@/containers/theme-context";
 
 type ActiveSectionContextProvideProps = {
     children: React.ReactNode;
@@ -23,7 +25,9 @@ export default function ActiveSectionContextProvider({children,}: ActiveSectionC
                 activeSection,setActiveSection,timeOfLastClick,setTimeOfLastClick,
             }}
         >
+            <ThemeContextProvider>
             {children}
+            </ThemeContextProvider>
         </ActiveSectionContext.Provider>
     )
 };
