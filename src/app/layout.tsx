@@ -12,8 +12,8 @@ const sora = Sora({
     weight: ['100', '200', '300', '400', '500', '600', '700', '800'],
 })
 export const metadata: Metadata = {
-    title: "",
-    description: "portfolio",
+    title: "Falak Naaz",
+    description: "portfolio for website",
 };
 
 export default function RootLayout({

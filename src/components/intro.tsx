@@ -57,9 +57,10 @@ export default function Intro() {
             </div>
             <Fade direction={'up'} delay={400} cascade damping={1e-1} triggerOnce={true}>
                 <h1 className={'mb-10 mt-4 px-4 text-2xl sm:text-4xl'}>
-                    <span className={'font-medium !leading-[1.5]'}>Grow your business with a new website</span>{""}
+                    <span className={'font-medium !leading-[1.5]'}>Step into the future of your business with a revamped website.</span>{""}
                     <p className={'text-[14px]'}>
-                        Frontend is a full-service creative studio creating beautiful digital experiences and products.
+                    Frontend builds immersive digital experiences and innovative products with a creative touch.
+
                     </p>
                 </h1>
             </Fade>
@@ -70,15 +71,15 @@ export default function Intro() {
                     delay: 0.1,
                 }}
                 className={'flex sm:flex-row items-center justify-center gap-4 px-4 text-lg font-medium'}>
-                <Link href={"#"}
+                <Link href={"mailto:naaz92falak@gmail.com"}
                       className={"group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 dark:bg-white/10 active:scale-105 transition"}>
                     Connect <Mail color={"#9ca3af"}/>
                 </Link>
 
-                <a className={"bg-gray-900 p-4 text-white flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer border-black dark:bg-white/10 dark:text-white/60"}>
+                <a href="https://www.linkedin.com/in/falak-naaz-447371262" target="_black" className={"bg-gray-900 p-4 text-white flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer border-black dark:bg-white/10 dark:text-white/60"}>
                     <BsLinkedin/>
                 </a>
-                <a className={"bg-gray-900 p-4 text-white flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer border-black dark:bg-white/10 dark:text-white/60"}>
+                <a href="https://github.com/FALAK92" target="_black" className={"bg-gray-900 p-4 text-white flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer border-black dark:bg-white/10 dark:text-white/60"}>
                     <FaGithubSquare/>
                 </a>
             </motion.div>

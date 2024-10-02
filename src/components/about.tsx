@@ -28,27 +28,19 @@ export default function About() {
                         <div className={'text-lg mt-12 xl:mt-3'}>
                             <div className={'flex justify-start flex-col'}>
                                 <Fade direction={'up'} delay={400} cascade damping={1e-1} triggerOnce={true}>
-                                    <h3 className={'font-bold mt-6'}>Our Mission</h3>
+                                    <h3 className={'font-bold mt-6'}>My Mission</h3>
                                 </Fade>
                                 <Fade direction={'up'} delay={600} cascade damping={1e-1} triggerOnce={true}>
                                     <p className={'mt-2 leading-relaxed text-sm text-gray-700 dark:text-white/70'}>
-                                        We believe that a website is the foundation of a successful online presence, and
-                                        our
-                                        goal is to help businesses establish a strong digital presence. Our process
-                                        begins
-                                        with understanding your business goals.
+                                    A website forms the backbone of any successful online presence, and our aim is to help businesses create a powerful digital footprint. We begin by aligning our strategy with your business objectives.
                                     </p>
                                 </Fade>
                                 <Fade direction={'up'} delay={400} cascade damping={1e-1} triggerOnce={true}>
-                                    <h3 className={'font-bold mt-6'}>Our Vision</h3>
+                                    <h3 className={'font-bold mt-6'}>My Vision</h3>
                                 </Fade>
                                 <Fade direction={'up'} delay={600} cascade damping={1e-1} triggerOnce={true}>
                                     <p className={'mt-2 leading-relaxed text-sm text-gray-700 dark:text-white/70'}>
-                                        We believe that a website is the foundation of a successful online presence, and
-                                        our
-                                        goal is to help businesses establish a strong digital presence. Our process
-                                        begins
-                                        with understanding your business goals.
+                                    I envision a digital world where every business can have a strong, impactful online presence. My goal is to create websites and digital products that inspire, engage, and help businesses grow.
                                     </p>
                                 </Fade>
                             </div>
