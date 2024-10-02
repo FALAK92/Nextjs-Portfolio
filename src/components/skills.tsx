@@ -20,7 +20,7 @@ const fadeInAnimationVariants = {
 }
 
 export default function Skills(){
-    const {refCallBack}:any = useSectionInView("#skills");
+    const {refCallBack} = useSectionInView("#skills");
     return(
         <section
         ref={refCallBack} 

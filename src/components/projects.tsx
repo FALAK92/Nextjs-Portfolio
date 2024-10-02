@@ -5,7 +5,7 @@ import ProjectCard from "@/components/project-card";
 import {useSectionInView} from "@/lib/useInView";
 
 export  default function Projects(){
-    const {refCallBack}:any = useSectionInView("#projects",0.1);
+    const {refCallBack} = useSectionInView("#projects",0.1);
 
     return(
         <section ref={refCallBack} id={"projects"} className={'scroll-mt-28 mb-28'}>

@@ -9,7 +9,7 @@ import SubmitBtn from "./submit-btn";
 import {Fade} from "react-awesome-reveal";
 
 export default function Contact(){
-    const {refCallBack}:any = useSectionInView("#contact");
+    const {refCallBack} = useSectionInView("#contact");
     return(
         <motion.section
 
