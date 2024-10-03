@@ -1,9 +1,9 @@
 "use client"
-import {skillsData} from "@/lib/data";
+import { skillsData } from "@/lib/data";
 import SectionHeading from "./section-heading";
 
-import {motion} from "framer-motion";
-import {useSectionInView} from "@/lib/useInView";
+import { motion } from "framer-motion";
+import { useSectionInView } from "@/lib/useInView";
 
 const fadeInAnimationVariants = {
   initial: {
@@ -20,10 +20,10 @@ const fadeInAnimationVariants = {
 }
 
 export default function Skills(){
-    const {ref} = useSectionInView("#skills");
+    const {refCallBack} = useSectionInView("#skills");
     return(
         <section
-        ref={ref}
+        ref={refCallBack} 
         id="skills" 
         className="mb-28 max-w-[53rem] scroll-t-28 text-center sm:mb-40">
             <SectionHeading>

@@ -9,10 +9,10 @@ import {motion} from "framer-motion";
 import {Fade} from "react-awesome-reveal";
 
 export default function About() {
-    const {ref} = useSectionInView("#about");
+    const {refCallback} = useSectionInView("#about");
     return (
         <motion.section
-            ref={ref}
+            ref={refCallback}
             id={'about'}
             className={'max-w-[45rem] text-center mt-32 leading-8 mb-28 sm:mb-40 scroll-mt-28'}
         >
