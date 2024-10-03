@@ -8,11 +8,11 @@ import SubmitBtn from "./submit-btn";
 import {Fade} from "react-awesome-reveal";
 
 export default function Contact(){
-    const {refCallBack} = useSectionInView("#contact");
+    const {ref} = useSectionInView("#contact");
     return(
         <motion.section
 
-        ref={refCallBack} 
+        ref={ref}
         id="contact" 
         className="mb-28 max-w-[53rem] scroll-t-28 text-center sm:mb-40">
             <Fade direction={"up"} delay={400} cascade damping={1e-1} triggerOnce={true}>
