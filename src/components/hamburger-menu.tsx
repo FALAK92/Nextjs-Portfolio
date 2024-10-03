@@ -1,5 +1,5 @@
 "use client"
-import React, {useState} from "react";
+import React from "react";
 import {Link} from "@/lib/types";
 import clsx from "clsx";
 import NextLink from "next/link";
@@ -8,6 +8,7 @@ import {useActiveSectionContext} from "@/containers/active-section";
 
 //Animation
 import {AnimatePresence, motion} from "framer-motion";
+import {useState} from "react";
 
 type HamburgerMenuProps = { links: Link[] };
 const HamburgerMenu: React.FC<HamburgerMenuProps> = ({links}) => {
