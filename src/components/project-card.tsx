@@ -1,10 +1,8 @@
 import Image from 'next/image';
 import {ProjectInfo} from "@/lib/types";
-import {useScroll, useTransform} from "framer-motion";
-import {useRef} from "react";
-
 //Animation
-import {motion} from "framer-motion";
+import {motion, useScroll, useTransform} from "framer-motion";
+import {useRef} from "react";
 
 type ProjectProps = ProjectInfo;
 export default function ProjectCard({
