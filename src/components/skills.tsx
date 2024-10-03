@@ -1,9 +1,9 @@
 "use client"
-import { skillsData } from "@/lib/data";
+import {skillsData} from "@/lib/data";
 import SectionHeading from "./section-heading";
 
-import { motion } from "framer-motion";
-import { useSectionInView } from "@/lib/useInView";
+import {motion} from "framer-motion";
+import {useSectionInView} from "@/lib/useInView";
 
 const fadeInAnimationVariants = {
   initial: {

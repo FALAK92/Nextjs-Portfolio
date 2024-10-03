@@ -1,7 +1,7 @@
 "use client"
 import React from 'react';
 import {useFormStatus} from "react-dom";
-import { FaPaperPlane } from "react-icons/fa";
+import {FaPaperPlane} from "react-icons/fa";
 
 type SubmitBtnProps = {
     text: string;

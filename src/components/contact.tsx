@@ -1,9 +1,8 @@
-
 "use client"
 import SectionHeading from "./section-heading";
 
-import { motion } from "framer-motion";
-import { useSectionInView } from "@/lib/useInView";
+import {motion} from "framer-motion";
+import {useSectionInView} from "@/lib/useInView";
 import SubmitBtn from "./submit-btn";
 
 import {Fade} from "react-awesome-reveal";

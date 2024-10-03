@@ -1,6 +1,6 @@
 "use client"
 import {SectionName} from "@/lib/types";
-import React, {useState, createContext, useContext} from "react";
+import React, {createContext, useContext, useState} from "react";
 import ThemeContextProvider from "@/containers/theme-context";
 
 type ActiveSectionContextProvideProps = {
