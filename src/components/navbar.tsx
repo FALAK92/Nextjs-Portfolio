@@ -1,7 +1,7 @@
-import {links} from "@/lib/data";
+ import {links} from "@/lib/data";
 import React from "react";
-import Header from "@/components/header";
-import HamburgerMenu from "@/components/hamburger-menu";
+ import Header from "@/components/header";
+ import HamburgerMenu from "@/components/hamburger-menu";
 
 export default function Navbar() {
     return(
